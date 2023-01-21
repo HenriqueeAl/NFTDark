@@ -1,0 +1,22 @@
+.live{
+    background: linear-gradient(336.61deg, #251928 16.25%, rgba(37, 25, 40, 0) 91.6%);
+    .arrow{
+        display: flex;
+        max-width: 1500px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: end;
+        background-color: transparent;
+        img{
+            cursor: pointer;
+            margin-left: 30px;
+        }
+    }
+    .cards{
+        display: flex;
+        margin-left: 82px;
+        overflow: hidden;
+        background-color: transparent;
+    }
+}

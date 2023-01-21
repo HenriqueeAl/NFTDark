@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.hero{
+    height: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    .rigth{
+        width: 53%;
+        height: 100%;
+    }
+    .left{
+        width: 47%;
+        height: 100%;
+        background: rgba(79, 70, 78, 0.45);
+        backdrop-filter: blur(15px);
+    }
+    .content{
+        max-width: 1500px;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: flex;
+        background-color: transparent;
+        .l{
+            width: 53%;
+            height: 50vh;
+            background-color: transparent;
+            h1{
+                max-width: 710px;
+                color: #F5FBF2;
+                font-family: 'Oxanium';
+                font-size: 85px;
+                line-height: 130px;
+                margin-top: 100px;
+                strong{
+                    color: #FFCE4E;
+                }
+            }
+            button{
+                width: 250px;
+                height: 80px;
+                font-family: 'Work Sans';
+                font-weight: 600;
+                font-size: 28px;
+                margin-right: 48px;
+                cursor: pointer;
+                margin-top: 50px;
+            }
+            .explore{
+                background-color: #FFCE4E;
+                color: black;
+                border: none;
+            }
+            .create{
+                background: rgba(233, 215, 167, 0.1);
+                border: 1px solid #FFCE4E;
+                color: white;
+            }
+            .comment{
+                display: flex;
+                margin-top: 100px;
+                .comments{
+                    margin-right: 100px;
+                    h5{
+                        color: #F5FBF2;
+                        font-family: 'Oxanium';
+                        font-weight: 700;
+                            font-size: 62px;
+                    }
+                    p{
+                        color: #9B9E9A;
+                        font-size: 22px;
+                        font-family: 'Work Sans';
+                    }
+                }
+            }
+        }
+        .r{
+            width: 47%;
+            height: 50vh;
+            background-color: transparent;
+            display: flex;
+            justify-content: flex-end;
+            .card{
+                width: 579px;
+                height: 718px;
+                background-image: url('/bgfirtscard.png');
+                margin-top: 100px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .topo{
+                    width: 96%;
+                    height: 95px;
+                    margin: 0 auto;
+                    background: linear-gradient(92.8deg, rgba(255, 137, 61, 0.09) -52.37%, rgba(250, 250, 250, 0.9) 137.41%);
+                    opacity: 0.95;
+                    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.12);
+                    backdrop-filter: blur(22.5px);
+                    margin-top: 16px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .topot{
+                        background-color: transparent;
+                        .topotp{
+                            background-color: transparent;
+                            font-weight: 500;
+                            font-size: 18px;
+                            font-family: 'Oxanium';
+                            color: #E4DEE7;
+                        }
+                        .topotp2{
+                            background-color: transparent;
+                            font-weight: 700;
+                            font-size: 32px;
+                            font-family: 'Oxanium';
+                            color: white;
+                        }
+                    }
+                }
+                .baixo{
+                    width: 579px;
+                    height: 115px;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    .artist{
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        background-color: transparent;
+                        justify-content: center;
+                        margin-left: 34px;
+                        .artistp{
+                            background-color: transparent;
+                            font-size: 28px;
+                            font-family: 'Oxanium';
+                            color: #16091B;
+                        }
+                        .artistp2{
+                            background-color: transparent;
+                            font-size: 24px;
+                            font-family: 'Work Sans';
+                            color: #594D5E;
+                        }
+                    }
+                    .button{
+                        width: 200px;
+                        height: 70px;
+                        background-color: #FFCE4E;
+                        border: none;
+                        font-family: 'Work Sans';
+                        font-size: 24px;
+                        color: #000000;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
