@@ -1,0 +1,10 @@
+.work{
+    width: 100vw;
+    max-width: 1500px;
+    margin: 0 auto;
+    .boxs{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
