@@ -1,11 +1,87 @@
 .card{
-    width: 415px;
+    min-width: 415px;
     height: 500px;
     background-color: #3D2942;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-right: 50px;
     img{
         margin-top: 32px;
+    }
+    .perfil{
+        width: 100%;
+        max-width: 351px;
+        background-color: transparent;
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+        .left{
+            display: flex;
+            background-color: transparent;
+            img{
+                margin-top: 0px;
+                background-color: transparent;
+            }
+            .text{
+                background-color: transparent;
+                margin-left: 12px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                .name{
+                    background-color: transparent;
+                    font-family: 'Work Sans';
+                    font-weight: 600;
+                    font-size: 24px;
+                    color: #F5FBF2;
+                }
+                .by{
+                    background-color: transparent;
+                    font-family: 'Work Sans';
+                    font-size: 18px;
+                    color: #BDAAC1;
+                }
+            }
+        }
+        .likes{
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            p{
+                background-color: transparent;
+                font-family: 'Work Sans';
+                font-size: 24px;
+                color: #BDAAC1;
+                margin-left: 12px;
+            }
+            img{
+                background-color: transparent;
+                display: flex;
+                margin-top: 0;
+            }
+        }
+    }
+    .price{
+        background-color: transparent;
+        display: flex;
+        width: 100%;
+        max-width: 351px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+        .left{
+            background-color: transparent;
+            font-family: 'Work Sans';
+            font-size: 20px;
+            color: #C6BFC8;
+        }
+        .rigth{
+            background-color: transparent;
+            font-family: 'Oxanium';
+            font-weight: 700;
+            font-size: 20px;
+            color: #F5FBF2;
+        }
     }
 }

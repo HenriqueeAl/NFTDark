@@ -1,3 +1,4 @@
+import { Creators } from '@/components/creators/Creators'
 import { Explore } from '@/components/explore/Explore'
 import { Header } from '@/components/Header/Header'
 import { Hero } from '@/components/Hero/Hero'
@@ -17,6 +18,7 @@ export default function Home() {
       <Work></Work>
       <Popular></Popular>
       <Explore></Explore>
+      <Creators></Creators>
     </main>
   )
 }

@@ -8,7 +8,10 @@ export const Explore = () => {
         <section className={styles.explore}>
             <Title text='Explore By Categories' color='#8613A5'></Title>
             <div className={styles.cards}>
-                <Cardexplore></Cardexplore>
+                <Cardexplore img='/cardexplore1.png'></Cardexplore>
+                <Cardexplore img='/cardexplore2.png'></Cardexplore>
+                <Cardexplore img='/cardexplore3.png'></Cardexplore>
+                <Cardexplore img='/cardexplore2.png'></Cardexplore>
             </div>
             <Viewall></Viewall>
         </section>

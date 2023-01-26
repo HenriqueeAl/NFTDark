@@ -2,15 +2,15 @@
     margin-top: 100px;
     .cards{
         display: flex;
-        max-width: 1700px;
+        max-width: 1500px;
         margin: 0 auto;
-        padding-left: 100px;
+        overflow: hidden;
     }
     .arrow{
         width: 100%;
-        max-width: 1700px;
+        max-width: 1500px;
         margin: 0 auto;
-        padding-left: 100px;
+        padding-left: 30px;
         display: flex;
         height: 430px;
         align-items: center;
