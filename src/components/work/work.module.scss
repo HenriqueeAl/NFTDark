@@ -3,8 +3,9 @@
     max-width: 1500px;
     margin: 0 auto;
     .boxs{
-        margin-top: 50px;
+        margin-top: 100px;
         display: flex;
         justify-content: space-between;
+        border-top: 2px dashed #794187;
     }
 }

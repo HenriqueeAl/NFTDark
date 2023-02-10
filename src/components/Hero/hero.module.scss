@@ -52,11 +52,27 @@
                 background-color: #FFCE4E;
                 color: black;
                 border: none;
+                transition: 1s;
+            }
+            .explore:hover{
+                background: rgba(233, 215, 167, 0.1);
+                border: 1px solid #FFCE4E;
+                color: white;
+                transform: scale(1.2);
+                transition: 1s;
+                transition-timing-function: linear;
             }
             .create{
                 background: rgba(233, 215, 167, 0.1);
                 border: 1px solid #FFCE4E;
                 color: white;
+                transition: 1s;
+            }
+            .create:hover{
+                background-color: #FFCE4E;
+                color: black;
+                transform: scale(1.2);
+                transition: 1s;
             }
             .comment{
                 display: flex;

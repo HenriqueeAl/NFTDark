@@ -1,0 +1,35 @@
+.ready{
+    background-image: url('/bg-ready.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    form{
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 25px;
+        padding-bottom: 120px;
+        input{
+            width: 500px;
+            padding: 0 60px;
+            background-color: transparent;
+            border: 1px solid #E7B226;
+            height: 100px;
+            font-family: 'Work Sans';
+            font-size: 24px;
+            outline: none;
+            color: white;
+        }
+        button{
+            width: 245px;
+            background-color: #E7B226;
+            height: 100px;
+            border: 1px solid #E7B226;
+            font-family: 'Work Sans';
+            font-weight: 700;
+            font-size: 24px;
+        }
+    }
+}
