@@ -8,7 +8,7 @@ export const Hero = () => {
             <div className={styles.content}>
                 <div className={styles.l}>
                     <h1>Explore, Buy and Sell the <strong>Best NFTs!</strong></h1>
-                    <div>
+                    <div className={styles.buttons}>
                         <button className={styles.explore}>Explore</button>
                         <button className={styles.create}>Create</button>
                     </div>
@@ -45,6 +45,20 @@ export const Hero = () => {
                                 <p className={styles.artistp2}>@wzard</p>
                             </div>
                             <button className={styles.button}>Start Bid</button>
+                        </div>
+                    </div>
+                    <div className={styles.comment}>
+                        <div className={styles.comments}>
+                            <h5>35k+</h5>
+                            <p>Artworks</p>
+                        </div>
+                        <div className={styles.comments}>
+                            <h5>20k+</h5>
+                            <p>Auctions</p>
+                        </div>
+                        <div className={styles.comments}>
+                            <h5>12k+</h5>
+                            <p>Creators</p>
                         </div>
                     </div>
                 </div>

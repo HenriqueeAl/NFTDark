@@ -24,6 +24,14 @@ export const Header = () => {
                         </ul>
                     </nav>
                     <button>Connect Wallet</button>
+                    <nav className={styles.mobile}>
+                        <img src='./menu.png'></img>
+                        <ul>
+                            <li className={select == 0 ? styles.select : styles.none} onClick={()=>setSelect(0)}>Explore</li>
+                            <li className={select == 1 ? styles.select : styles.none} onClick={()=>setSelect(1)}>Creators</li>
+                            <li className={select == 2 ? styles.select : styles.none} onClick={()=>setSelect(2)}>Community</li>
+                        </ul>
+                    </nav>
                 </div>
             </header>
         </>
