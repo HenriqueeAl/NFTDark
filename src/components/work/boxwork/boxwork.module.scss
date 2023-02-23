@@ -2,9 +2,6 @@
     display: flex;
     flex-direction: column;
     margin-top: -50px;
-    align-items: flex-start;
-    justify-content: center;
-
     @media (max-width:900px) {
         justify-content: flex-start;
         align-items: center;

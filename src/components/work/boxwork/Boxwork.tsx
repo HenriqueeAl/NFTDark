@@ -1,3 +1,6 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import styles from './boxwork.module.scss'
 
 interface boxwork{
@@ -7,8 +10,23 @@ interface boxwork{
 }
 
 export const Boxwork = (props: boxwork) => {
+
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleWindowResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleWindowResize);
+
+        return () => {
+        window.removeEventListener('resize', handleWindowResize);
+        };
+    });
+
     return (
-        <div className={styles.boxwork} style={props.firts == false ? {marginTop: '120px'}: {}}>
+        <div className={styles.boxwork} style={props.firts == false && windowWidth <= 900 ? {marginTop: '120px'} : {}}>
             {props.firts == true ? <></> : <div className={styles.los}></div>}
             <div className={styles.center}>
                 <img src={props.img}></img>
