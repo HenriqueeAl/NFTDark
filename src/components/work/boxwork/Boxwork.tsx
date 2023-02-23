@@ -11,9 +11,10 @@ interface boxwork{
 
 export const Boxwork = (props: boxwork) => {
 
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [windowWidth, setWindowWidth] = useState(900);
 
     useEffect(() => {
+        setWindowWidth(window.innerWidth)
         const handleWindowResize = () => {
             setWindowWidth(window.innerWidth);
         };
