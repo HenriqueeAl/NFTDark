@@ -8,7 +8,7 @@ interface boxwork{
 
 export const Boxwork = (props: boxwork) => {
     return (
-        <div className={styles.boxwork}>
+        <div className={styles.boxwork} style={props.firts == false ? {marginTop: '120px'}: {}}>
             {props.firts == true ? <></> : <div className={styles.los}></div>}
             <div className={styles.center}>
                 <img src={props.img}></img>

@@ -4,11 +4,11 @@
     margin-top: -50px;
     align-items: flex-start;
     justify-content: center;
+
     @media (max-width:900px) {
         justify-content: flex-start;
         align-items: center;
         margin-left: -90vw;
-        margin-bottom: 120px;
     }
     p{
         font-family: 'Work Sans';
