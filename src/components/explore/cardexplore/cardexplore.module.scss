@@ -6,8 +6,19 @@
     align-items: center;
     flex-direction: column;
     margin-right: 50px;
+    @media (max-width:1150px) {
+        min-width: 343px;
+        height: 470px;
+    }
+    @media (max-width:700px) {
+        margin-top: 40px;
+        margin-right: 0px;
+    }
     img{
         margin-top: 32px;
+    }
+    .image{
+        width: 90%;
     }
     .perfil{
         width: 100%;
@@ -16,6 +27,9 @@
         margin-top: 16px;
         display: flex;
         justify-content: space-between;
+        @media (max-width:1150px) {
+            width: 90%;
+        }
         .left{
             display: flex;
             background-color: transparent;
@@ -70,6 +84,9 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 25px;
+        @media (max-width:1150px) {
+            width: 90%;
+        }
         .left{
             background-color: transparent;
             font-family: 'Work Sans';

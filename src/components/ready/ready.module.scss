@@ -11,6 +11,9 @@
         justify-content: center;
         margin-top: 25px;
         padding-bottom: 120px;
+        @media (max-width:700px) {
+            flex-direction: column;
+        }
         input{
             width: 500px;
             padding: 0 60px;
@@ -21,6 +24,19 @@
             font-size: 24px;
             outline: none;
             color: white;
+            @media (max-width:1000px) {
+                width: 350px;
+                height: 90px;
+                padding: 0 40px;
+                font-size: 20px;
+            }
+            @media (max-width:700px) {
+                width: 340px;
+                height: 70px;
+                padding: 0 25px;
+                font-size: 18px;
+                margin-bottom: 30px;
+            }
         }
         button{
             width: 245px;
@@ -30,6 +46,16 @@
             font-family: 'Work Sans';
             font-weight: 700;
             font-size: 24px;
+            @media (max-width:1000px) {
+                width: 200px;
+                height: 90px;
+                font-size: 20px;
+            }
+            @media (max-width:700px) {
+                width: 190px;
+                height: 55px;
+                font-size: 18px;
+            }
         }
     }
 }

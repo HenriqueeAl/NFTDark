@@ -7,7 +7,7 @@ interface explore{
 export const Cardexplore = (props: explore) => {
     return (
         <div className={styles.card}>
-            <img src={props.img}></img>
+            <img src={props.img} className={styles.image}></img>
             <div className={styles.perfil}>
                 <div className={styles.left}>
                     <img src='/exploreperson.png'></img>
